@@ -11,7 +11,6 @@ function generateXML(){
     $xml_doc->setAttribute('language', 'IPPcode23');
     $xml_doc = $dom_doc->appendChild($xml_doc);
     $lexema = array();
-    $inst_counter = 0;
     $lexema = parse();
     if ($lexema[0] != NULL) {
         if ($lexema[0][0] != NULL) {

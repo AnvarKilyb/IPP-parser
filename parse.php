@@ -74,6 +74,10 @@ $stderr = STDERR;
 
 $loc = 0;
 $comments = 0;
+$labels = 0;
+$jumps = 0;
+$fwjumps = 0;
+$bjumps = 0;
 generateXML();
 exit(ERR_OK);
 
